@@ -31,12 +31,15 @@ section#login{
     height: 500px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px ;
+
+    transition: width .15s, height .3s;
+    transition-timing-function: ease;
 }
 
 section#login > div#imagem_login {
     display: block;
     background: rgb(171, 173, 144) url(/img/img_1_login.png) no-repeat;
-    background-size: cover;
+    background-size: cover ;
     height: 200px;
 }
 
