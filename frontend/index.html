@@ -7,17 +7,16 @@
     <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet">
     <link rel="stylesheet" href="estilos/login.css">
     <link rel="stylesheet" href="estilos/media-query.css">
+    <script src="scrpt.js" defer></script>
 </head>
 <body>
     <main>
         <section id="login">
-            <div id="imagem_login">
-
-            </div>
+            <div id="imagem_login"></div>
             <div id="formulario">
                 <h1>Login</h1>
                 <p>Seja bem-vindo(a)</p>
-                <form action="login.php" method="post" autocomplete="on">
+                <form method="post" autocomplete="on">
                     <div class="campo">
                         <span class="material-symbols-outlined">person</span>
                         <input type="email" name="login" id="ilogin" placeholder="Digite seu e-mail" autocomplete="email" required maxlength="30">
@@ -27,8 +26,8 @@
                         <input type="password" name="senha" id="ipassword" placeholder="Digite sua senha" autocomplete="current-password" required minlength="5" maxlength="10">
                         <label for="ipassword"></label>
                     </div>
-                    <input type="submit" value="Entrar">
-                    <button class="botao">Esqueci minha senha</button>
+                    <input type="submit" value="Entrar" id="entrarBtn">
+                    <button class="botao" id="esqueciSenhaBtn">Esqueci minha senha</button>
                 </form>
             </div>
         </section>
