@@ -7,7 +7,9 @@ document.addEventListener("DOMContentLoaded", function() {
         
         if (email === "pedro.martins@sigma.com" && password === "123") {
             alert("Login bem-sucedido!");
-            window.location.href = "home.html";
+
+            localStorage.setItem("authenticated", "true");
+            window.location.href = "https://www.sigmatransportes.com.br/";
         } else {
             alert("E-mail ou senha inválidos.");
         }
