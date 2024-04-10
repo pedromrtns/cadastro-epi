@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function() {
             alert("Login bem-sucedido!");
 
             localStorage.setItem("authenticated", "true");
-            window.location.href = "https://www.sigmatransportes.com.br/";
+            window.location.href = "home.html";
         } else {
             alert("E-mail ou senha inválidos.");
         }
