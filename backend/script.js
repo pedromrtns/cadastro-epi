@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function() {
         var email = document.getElementById("email").value;
         var password = document.getElementById("password").value;
         
-        if (email === "pedro.martins@sigma.com" && password === "123") {
+        if (email === "" && password === "") {
             alert("Login bem-sucedido!");
 
             localStorage.setItem("authenticated", "true");
