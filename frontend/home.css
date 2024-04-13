@@ -1,33 +1,36 @@
-* {
+/* * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
 body{
-    display: flex; /* Faz com que o corpo se comporte como um flex container */
-    justify-content: center; /* Centraliza o conteúdo horizontalmente */
-    align-items: center; /* Centraliza o conteúdo verticalmente */
-    height: 100vh; /* Define a altura do corpo para ocupar toda a altura da janela de visualização */
-    margin: 0; /* Remove as margens padrão */
-    
+    display: flex; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+    margin: 0; 
+    text-align: center;
 }
 
 #container {
     width: 50%;
     margin: 0 auto;
-    overflow: hidden; /* Para conter as divs flutuantes */
+    overflow: hidden; 
 }
 
-#epi-caps, #epi-luvas, #epi-oculos {
-    width: 33.33%; /* Para fazer cada div ocupar 1/3 da largura */
-    display: inline-block; /* Para fazer as divs ficarem lado a lado */
-    box-sizing: border-box; /* Para incluir padding e borda na largura */
-    padding: 10px; /* Adiciona um espaço interno para as divs */
+#epi-caps, #epi-luvas, #epi-oculos, #epi-botas {
+    width: 33.33%; 
+    display: inline-block; 
+    box-sizing: border-box; 
+    padding: 10px; 
     text-align: center;
+    margin: 30px;
 }
 
 img {
-    max-width: 100%; /* Garante que as imagens não ultrapassem a largura da div */
-    height: auto; /* Mantém a proporção da imagem */
-}
+    max-width: 100%; 
+    height: auto; 
+    border: 1px solid black;
+    border-radius: 10px;
+} */

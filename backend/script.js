@@ -11,10 +11,18 @@ document.addEventListener("DOMContentLoaded", function() {
             localStorage.setItem("authenticated", "true");
             window.location.href = "home.html";
         } else {
-            alert("E-mail ou senha inválidos.");
+            alert("E-mail ou senha inválidos, tente novamente");
         }
     });
+    // document.addEventListener("DOMContentLoaded", function() {
+    //     document.getElementById("botaoCapacetes").addEventListener("click", function(event) {
+    //         event.preventDefault();
+    //         alert("Botão de Capacetes clicado!");
+    //     });
+    // });
+
 });
+
 
 
  
